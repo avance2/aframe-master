@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- RWD -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!--  Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <!--  This Site/App -->
+    <title>Aframe</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+  
+    <header class="columns level">
+      <h1 class="is-size-3 button level-item"><a href="index.html">360 Me</a></h1>
+    </header>     
+
+    <a-scene>
+    
+      <a-sky src="img/sample.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-text value="Sample" width="6" position="-2.5 0.25 -1.5" rotation="0 15 0"></a-text>
+    
+    </a-scene>
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/aframe.js"></script>
+  <script src="js/scripts.js"></script>
+
+  </body>
+</html>
